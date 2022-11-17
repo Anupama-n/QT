@@ -8,6 +8,8 @@ Dialog::Dialog(QWidget *parent) :
     ui(new Ui::Dialog)
 {
     ui->setupUi(this);
+    ui->comboBox->addItem("Lz77");
+    ui->comboBox->addItem("hauffman");
 }
 
 Dialog::~Dialog()

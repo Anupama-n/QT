@@ -15,6 +15,9 @@ public:
     explicit secdialog(QWidget *parent = nullptr);
     ~secdialog();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::secdialog *ui;
 };

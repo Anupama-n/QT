@@ -14,9 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:0.380682, x2:1, y2:1, stop:0 rgba(173, 127, 168, 255), stop:1 rgba(255, 255, 255, 255));
-background-color: qconicalgradient(cx:0.526105, cy:0.295, angle:0, stop:0 rgba(188, 162, 143, 255), stop:1 rgba(255, 255, 255, 255));
-</string>
+   <string notr="true">background-color: rgb(114, 159, 207);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTextBrowser" name="textBrowser">

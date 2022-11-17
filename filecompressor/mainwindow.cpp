@@ -31,10 +31,14 @@ void MainWindow::on_pushButton_3_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-
+    hide();
     Dialog dialoG;
     dialoG.setModal(true);
+
     dialoG.exec();
+
+
+
 }
 
 
@@ -42,8 +46,11 @@ void MainWindow::on_pushButton_2_clicked()
 
 void MainWindow::on_pushButton_clicked()
 {
-    secdialog secdialoG;
-    secdialoG.setModal(true);
-    secdialoG.exec();
+  hide();
+  secdialog secdialoG;
+  secdialoG.setModal(true);
+
+  secdialoG.exec();
+
 }
 
