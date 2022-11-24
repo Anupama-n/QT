@@ -7,11 +7,14 @@
 secdialog::secdialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::secdialog)
+
 {
+
     ui->setupUi(this);
     ui->comboBox->addItem("Lz77");
-    ui->comboBox->addItem("hauffman");
+    ui->comboBox->addItem("Huffman");
 }
+
 
 secdialog::~secdialog()
 {

@@ -14,7 +14,7 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(114, 159, 207);</string>
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
@@ -37,6 +37,9 @@
      <width>121</width>
      <height>21</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(211, 215, 207);</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">

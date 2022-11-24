@@ -1,7 +1,9 @@
 #include "dialog.h"
 #include "ui_dialog.h"
 #include <QFileDialog>
+
 #include <QMessageBox>
+
 
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),
@@ -9,7 +11,7 @@ Dialog::Dialog(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->comboBox->addItem("Lz77");
-    ui->comboBox->addItem("hauffman");
+    ui->comboBox->addItem("Huffman");
 }
 
 Dialog::~Dialog()
