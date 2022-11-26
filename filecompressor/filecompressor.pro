@@ -10,14 +10,20 @@ CONFIG += c++17
 
 SOURCES += \
     dialog.cpp \
+    lib/LZ77.cpp \
+    lib/huffman.cpp \
+    lib/misc.cpp \
     main.cpp \
     mainwindow.cpp \
-    secdialog.cpp
+    secdialog.cpp \
 
 HEADERS += \
     dialog.h \
+    include/LZ77.hpp \
+    include/huffman.h \
+    include/misc.hpp \
     mainwindow.h \
-    secdialog.h
+    secdialog.h \
 
 FORMS += \
     dialog.ui \
@@ -28,3 +34,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    assets/euler.png
