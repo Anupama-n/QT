@@ -1,4 +1,4 @@
-#include "..\include\LZ77.hpp"
+#include "include/LZ77.hpp"
 
 std::pair<uint16_t, uint8_t> longest_possible_substr(std::string &searchBuffer, std::string &lookaheadBuffer)
 {

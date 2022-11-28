@@ -1,4 +1,4 @@
-#include "..\include\misc.hpp"
+#include "include/misc.hpp"
 
 double compression_ratio(unsigned long long inFileSize, unsigned long long compressedFileSize)
 {

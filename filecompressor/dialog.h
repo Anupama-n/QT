@@ -5,7 +5,6 @@
 #include "include/LZ77.hpp"
 #include "include/misc.hpp"
 #include "include/huffman.h"
-
 namespace Ui {
 class Dialog;
 }
